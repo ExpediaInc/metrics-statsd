@@ -113,8 +113,8 @@ subprojects {
           password System.env['PASSWORD'] ?: ''
         }
 
-        name = 'ewe-nexus'
-        url = 'http://nexus.sb.karmalab.net/nexus/content/repositories/releases/'
+        name = 'tls-artifactory'
+        url = 'https://artylab.expedia.biz/tls-maven-release-local'
       }
     }
   }
